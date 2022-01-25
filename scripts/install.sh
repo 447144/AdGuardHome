@@ -359,7 +359,7 @@ please, restart it with root privileges'
 # TODO(e.burkov): Try to avoid restarting.
 rerun_with_root() {
 	script_url=\
-'https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh'
+'https://cdn.jsdelivr.net/gh/AdguardTeam/AdGuardHome@master/scripts/install.sh'
 	readonly script_url
 
 	r='-R'
